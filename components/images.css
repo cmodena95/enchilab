@@ -2,3 +2,14 @@
   width: 660px;
   height: 483px;
 }
+
+
+
+/* TABLET VIEW */
+
+@media screen and (min-device-width: 401px) and (max-device-width: 1336px) {
+  #intro-image {
+    width: 432px;
+    height: 316px;
+  }
+}

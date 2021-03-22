@@ -24,3 +24,24 @@ btn {
   font-weight: thin;
   font-size: 17px;
 }
+
+
+/* MOBILE VIEW */
+
+@media screen and (max-device-width: 400px) {
+  h2 {
+    font-size: 70px;
+  }
+
+  btn {
+    font-size: 36px;
+  }
+}
+
+/* TABLET VIEW */
+
+@media screen and (min-device-width: 401px) and (max-device-width: 1336px) {
+  h3 {
+    font-size: 20px;
+  }
+}
