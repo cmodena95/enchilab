@@ -1,15 +1,26 @@
 h2 {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: black;
   font-size: 40px;
   font-weight: regular;
 }
 
 h3 {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 16px;
   font-weight: regular;
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: thin;
+  font-size: 17px;
+  line-height: 230%;
+}
 
+btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: thin;
+  font-size: 17px;
+}

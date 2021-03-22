@@ -6,6 +6,15 @@
   position: relative;
 }
 
+.banner-top {
+  display: flex;
+}
+
+.logo-and-slogan {
+  display: block;
+  margin: auto;
+}
+
 #logo {
   width: 300px;
   display: block;
@@ -19,33 +28,21 @@
   margin-bottom: 10px;
 }
 
-.menu {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 20px;
-  /*padding-bottom: 40px;*/
-}
-
 .fa-search {
   position: absolute;
   font-size: 30px;
   color: white;
-  margin-top: 40px;
+  margin: 60px 0px 0px 60px;
 }
 
-.banner-top {
+.menu {
   display: flex;
+  justify-content: space-between;
+  margin: 20px 250px 0px 250px;
 }
 
 .mobile-view-menu {
   display: none;
-}
-
-.logo-and-slogan {
-  display: block;
-  margin: auto;
 }
 
 
@@ -54,7 +51,7 @@
 @media screen and (max-device-width: 400px) {
   #logo {
     width: 390px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
   #slogan {
@@ -67,5 +64,18 @@
 
   .mobile-view-menu {
     display: block;
+    font-size: ;
+  }
+
+  .fa-search {
+    font-size: 50px;
+    margin: 60px 30px 30px 30px;
+  }
+
+  .fa-ellipsis-h {
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+    top: 80px;
   }
 }
